@@ -1,11 +1,8 @@
 
-{{#each producto}}
-<div class="card" style="width: 18rem;">
-  <img src="/img/{{this}}.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">{{this}}</h5>
-  </div>
+<h1 class="container text-center">Bienvenido al mercado web, Elija su producto</h1>
+
+<div class="container mt-5">
+    <div class="row row-cols-1 cols-md-4">
+        {{> products}}
+    </div>
 </div>
-{{/each}}
-
-
