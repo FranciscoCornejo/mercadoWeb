@@ -16,7 +16,7 @@ app.use(express.static('assets'));
 app.use('/bootstrap',express.static('node_modules/bootstrap/dist/'))
 
 app.get('/', (req,res)=>{
-    res.render('products', {
+    res.render('home', {
         title:'Productos',
         producto: ['banana','cebollas','lechuga','papas','pimenton','tomate']
     })
