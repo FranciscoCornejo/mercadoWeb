@@ -15,7 +15,7 @@ app.engine('hbs', exphbs.engine({
 app.use(express.static('assets'));
 app.use('/bootstrap',express.static('node_modules/bootstrap/dist/'))
 
-app.get('/products', (req,res)=>{
+app.get('/', (req,res)=>{
     res.render('products', {
         title:'Productos',
         producto: ['banana','cebollas','lechuga','papas','pimenton','tomate']
