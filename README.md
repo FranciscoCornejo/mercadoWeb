@@ -1,2 +1,2 @@
-integrantes: Francisco Cornejo
+integrantes: Francisco Cornejo\n
              Oscar Marin
